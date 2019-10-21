@@ -23,4 +23,4 @@ def total_even_pairs(src)
   # this!
 end
 
-join_ingredients([["peperoni", "mozarella"],["cheese", "olives"]])
+join_ingredients([["peperoni", "mozarella"],["cheese", "olives"], ["bacon", "cheddar"]])
