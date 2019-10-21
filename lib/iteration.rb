@@ -28,8 +28,6 @@ def find_greater_pair(src)
 end
 
 def total_even_pairs(src)
-  row_index = 0
-  total = 0
 
   total = 0
   row_index = 0
