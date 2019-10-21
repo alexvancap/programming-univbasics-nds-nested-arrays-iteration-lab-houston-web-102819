@@ -13,9 +13,11 @@ end
 def find_greater_pair(src)
 
   row_index = 0
+  new_array = []
 
   while row_index < src.count do
     if src[row_index][0] > src[row_index][1]
+
     row_index += 1
   end
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
