@@ -2,7 +2,7 @@ def join_ingredients(src)
 
   row_index = 0
   while src[row_index] < src.count do
-    puts "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza""
+    puts "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
     row_index += 1
   end
 end
