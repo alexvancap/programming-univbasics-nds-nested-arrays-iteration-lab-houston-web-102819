@@ -20,6 +20,8 @@ def find_greater_pair(src)
       new_array << src[row_index][0]
     else
       new_array << src[row_index][1]
+    end
+    
     row_index += 1
   end
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
