@@ -11,6 +11,12 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
+
+  row_index = 0
+
+  while row_index < src.count do
+    row_index += 1
+  end
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
